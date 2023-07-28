@@ -1,0 +1,12 @@
+
+Web Panel :
+Which add panel on right side of the Jira Issue
+
+<web-panel key='Panel' name='ScriptRunner generated web panel - Panel' location='atl.jira.view.issue.right.context' weight='1000' class='script:writer.write("Hello world!")'>
+  <label>Panel1</label>
+  <condition class='script:true'>
+    <param name='£trackingParameters' value='{"scriptName":"com.onresolve.scriptrunner.canned.jira.fragments.CustomWebPanel"}' />
+    <param name='£fragmentParameters' value='{"id":"b6e8b839-a0d2-4861-a308-9556e9208c6e"}' />
+  </condition>
+  <param name='lazy' value='true' />
+</web-panel>
